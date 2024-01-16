@@ -3,12 +3,45 @@
 }
 
 body.recipe {
-    font-family: Helvetica, sans-serif;
+    font-family: "SE Inter", "Space Grotesk", Helvetica, sans-serif;
     color: #363636;
     background-color: #fff;
     max-width: 50%;
     padding-left: 10rem;
     font-size: 17px;
+    line-height: 1.5rem;
+}
+
+section {
+    padding-bottom: 5px;
+}
+
+ul li::marker {
+    font-size: 1.3rem;
+    color: orange;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+.steps li {
+    padding: 5px 0 20px 0;
+}
+
+li.sublist {
+    padding: 0 0 20px 0;
+}
+
+.recipe-img {
+    display: block;
+    margin-left: -70px;
+    padding: 0 70px;
+    height: auto;
+}
+
+.title {
+    font-size: 40px;
 }
 
 h2 {
